@@ -1,1 +1,10 @@
-Presidents with more speeches will most likely have more mentions of foreign nations. 
+Presidents with more speeches will most likely have more mentions of foreign nations.
+Titles of the speeches are in the text file, for example Washington's "Talk to the Cherokee Nation."
+This skews the count of the number of mentions of a foreign nation because I have the titles of
+the speeches show up a few times in the text documents under "Previous speech" or "Next speech"
+as I scrape.
+I definitely could have figured out a way to count the number of speeches the president has,
+start at "First inaugural address," which is every president's first speech, and input that into
+my create_president_txt function, but I just manually counted and inputed the first speech url.
+Not all of the speeches where when the presidents were in office, such as Reagan's 1964 speech in
+support of Barry Goldwater for president.
